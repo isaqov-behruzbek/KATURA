@@ -1,0 +1,239 @@
+body{
+    background-color: #ffd343;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial;
+}
+.cls{
+    clear: both;
+}
+.curent{
+    color: red;
+    background-color: #151922;
+}
+nav{
+    background-color: #1f2a32;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+nav ul li a{
+    color: #ffd343;
+    padding: 20px 0px;
+}
+nav ul li:hover{
+    background-color: #151922;
+}
+nav ul li a:hover{
+    color: #ffb300;
+    text-decoration: none;
+
+
+}
+nav ul li a img{
+    width: 24px;
+}
+.container-fluid h4{
+    font-weight: 600;
+    color: #1f2a32;
+}
+.container-fluid h4 a{
+    color: red;
+    font-weight: 600;
+}
+@media screen and (min-width: 1024px) {
+    .footer-column-25{
+        width: 25%;
+        display: inline-block;
+    }
+    .footer-menu-div{
+        width: 960px;
+    }
+    .footer-menu-tittle{
+        font-size: 18px;
+    }
+    .footer-menu-link{
+        font-size: 16px;
+    }
+    .footer-menu-link-img{
+        width: 24px;
+    }
+    .nav-hidden-item{
+        display: none;
+    }
+    .tittle-text{
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 52px;
+        font-weight: 700;
+    }
+    .tittle-text-info{
+        display: inline-block;
+        margin: 0 auto;
+        color: black;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .uc-text{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .uc-img{
+        width: 72px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-column-25{
+        width: 25%;
+        display: inline-block;
+    }
+    .footer-menu-link-img{
+        width: 24px;
+    }
+    .nav-hidden-item{
+        display: none;
+    }
+    
+    .tittle-text{
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .tittle-text-info{
+        display: inline-block;
+        margin: 0 auto;
+        color: black;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .uc-text{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .uc-img{
+        width: 72px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .footer-hide-item{
+        display: none;
+    }
+    .footer-column-25{
+        width: 33.33%;
+    }
+    .footer-menu-link-img{
+        display: none;
+    }
+    .nav-hidden-item{
+        display: inline-block;
+    }
+    .hidden-item{
+        display: none;
+    }
+    
+    .tittle-text{
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .tittle-text-info{
+        display: inline-block;
+        margin: 0 auto;
+        color: black;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .uc-text{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .uc-img{
+        width: 48px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .footer-hide-item{
+        display: none;
+    }
+    .footer-column-25{
+        width: 33.33%;
+    }
+    .footer-menu-link-img{
+        display: none;
+    }
+    .nav-hidden-item{
+        display: inline-block;
+    }
+    .hidden-item{
+        display: none;
+    }
+    .tittle-text{
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .tittle-text-info{
+        display: inline-block;
+        margin: 0 auto;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .uc-text{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .uc-img{
+        width: 36px;
+    }
+}
+footer{
+    background-color: #1f2a32;
+    width: 100%;
+}
+.footer-menu-div{
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.footer-column-25{
+    top: 0;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.footer-menu-tittle{
+    padding-top: 28px;
+    color: #fff;
+    font-family: "Open Sans Semibold", Arial;
+}
+.footer-menu-ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.footer-menu-li{
+    margin-bottom: 7px;
+    line-height: 20px;
+}
+.footer-menu-link{
+    color: #939598;
+    text-decoration: none;
+}
+.footer-menu-link:hover{
+    color: #19b42b;
+    text-decoration: none;
+}
+
+
+
+.tittle-text{
+    color: black;
+}
